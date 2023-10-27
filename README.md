@@ -2,7 +2,7 @@
 
 A little calculator is created by flex&bison with C++ language.
 
-#features
+# features
 
 - created by flex&bison
 - implemented by C++ language
@@ -12,7 +12,7 @@ A little calculator is created by flex&bison with C++ language.
 - support if statement
 - support user defined function
 
-#install and usage
+# install and usage
 
 install
 ```
@@ -21,6 +21,7 @@ cd yxlang
 make
 ```
 usage
+```
 ./exprtest
 7+2*3
 a=2
@@ -29,3 +30,4 @@ let foo(a,b)=a*b;
 foo(2,3)
 sqrt(4)
 if 2*3 > 5 then a=2; a*3; fi
+```
